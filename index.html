@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Digital Garden</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="page">
+
+    <header class="header">
+      <h1>Digital Garden</h1>
+      <p class="subtitle">By Chris Sandoval</p>
+    </header>
+
+    <button class="floating-shape shape-one" data-group="0" aria-label="Open insight group 1"></button>
+    <button class="floating-shape shape-two" data-group="1" aria-label="Open insight group 2"></button>
+    <button class="floating-shape shape-three" data-group="2" aria-label="Open insight group 3"></button>
+    <button class="floating-shape shape-four" data-group="3" aria-label="Open insight group 4"></button>
+    <button class="floating-shape shape-five" data-group="4" aria-label="Open insight group 5"></button>
+    <button class="floating-shape shape-six" data-group="5" aria-label="Open insight group 6"></button>
+    <button class="floating-shape shape-seven" data-group="6" aria-label="Open insight group 7"></button>
+    <button class="floating-shape shape-eight" data-group="7" aria-label="Open insight group 8"></button>
+
+    <section id="infoPanel" class="info-panel hidden">
+      <button id="closeBtn" class="close-btn" aria-label="Close">×</button>
+
+      <h2 id="panelTitle">Insight Group</h2>
+
+      <div id="insightList" class="insight-list">
+      </div>
+
+      <div id="panelTags" class="panel-tags">
+      </div>
+    </section>
+
+  </main>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
